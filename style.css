@@ -1,0 +1,405 @@
+.whole_page {
+    display: grid;
+    grid-template-columns: 210px auto 1px;
+    grid-gap: 10px;
+}
+
+.logo {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16.5px;
+line-height: 20.25px;
+color: #7E72F2;
+align-items: center;
+}
+
+.logo > img {
+    width: 28.5px;
+    height: 20.25px;
+}
+
+.logo > span {
+    padding-left: 7.5px;
+}
+
+.side__bar {
+    max-width: 210px;
+    height: 1470px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.170509);
+}
+
+.oval {
+    width: 13.5px;
+    height: 13.5px;
+}
+
+.main__section {
+    background: #f9f9f9;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
+}
+
+.dashboard {
+    background-color: #ececec;
+    border-radius: 4px;
+}
+
+.dashboard__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.25px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+
+.analytics {
+    background: linear-gradient(188.54deg, #9E94FF 0%, #7E72F2 99.2%);
+    box-shadow: -1px 1px 8px rgba(126, 114, 242, 0.578726);
+    border-radius: 4px;
+    margin-top: 3px;
+}
+
+.analytics__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11.25px;
+    line-height: 30px;
+    color: #ffff;
+}
+
+.app_name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 27px;
+    color: #999999;
+}
+
+.side_image {
+    width: 11.25px;
+    height: 13.86px;
+}
+
+.john__doe {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 12.75px;
+    color: #2C2C2C;
+}
+
+.available {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 8.25px;
+    line-height: 9.75px;
+    color: #2C2C2C;
+}
+
+
+
+.nav__bar {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__action {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21.75px;
+    color: #2C2C2C;
+}
+
+.ecomm {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 12.75px;
+    color: #7E72F2;
+}
+
+.electronics {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 12.75px;
+    color: #2c2c2c;
+}
+
+.settings {
+    width: 30px;
+    height: 30px;
+}
+
+.english {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.5px;
+    line-height: 12.75px;
+    color: #2C2C2C;
+}
+
+.filter_side {
+    max-width: 278.25px;
+    height: 1350px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 8px;
+}
+
+.header_name {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 13.5px;
+line-height: 16.5px;
+color: #2C2C2C;
+}
+
+.filter_name,
+.filter_no {
+font-family: Montserrat;
+font-style: normal;
+font-weight: 300;
+font-size: 12px;
+line-height: 24px;
+color: #2C2C2C;
+padding-left: 4px;
+}
+
+.filter_no {
+    font-size: 10.5px;
+}
+
+.filter_slider {
+    font-style: 15px;
+    line-height: 18px;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+  
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #6F64F8;;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 20px;
+    height: 25px;
+    border-radius: 50%;
+    background: #6F64F8;
+    cursor: pointer;
+}
+
+.btn_block {
+    width: 278.25px;
+    height: 42px;
+    background: #6F64F8;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 6px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 16.5px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.mini__section {
+    display: grid;
+    grid-template-columns: 278.25px auto 1px;
+    grid-gap: 10px;
+}
+
+.search { 
+    position: relative; 
+}
+
+.search input { 
+    width: 811.25px;
+    height: 46.5px;
+    padding: 6px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 6px;
+}
+
+.search > img { 
+    position: absolute;
+    top: 12px;
+    left: 95%;
+}
+
+input::placeholder {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16.5px;
+    line-height: 20.25px;
+    color: #999999;
+}
+
+.grid_menu {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    border-radius: 6px;
+    margin-left: 6px;
+
+}
+
+.grid {
+    width: 12px;
+    height: 12px;
+    margin: 9px;
+    
+}
+
+.menu {
+    width: 9.75px;
+    height: 9.75px;
+    margin: 10px;
+}
+
+.round_value {
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    font-size: 10.5px;
+    line-height: 12.75px;
+    width: 101.25px;
+    height: 30px;
+}
+
+.results {
+    padding-right: 230px;    
+}
+
+
+.ratings {
+    background: #6F64F8;
+    border-radius: 3px;
+    width: 45px;
+    height: 22.5px;
+    color: #ffffff;
+}
+
+.ratings > span {
+    font family: Montserrat;
+    font style: Regular;
+    font size: 10.5px;
+    line height: 12.75px;
+}
+
+.gallery__images {
+    /* background: url(/images/apple-watch.jpg) no-repeat; */
+    max-width: 278.25px;
+    height: 364.5px;
+    background: #ffffff;
+}
+
+.cart_1 {
+    background: #EDEDED;
+    border-radius: 0px 0px 0px 8px;
+    padding: 0.5em 1.5em;
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+    width: 139.5px;
+    height: 33.75px;
+}
+
+.cart_2 {
+    background: #6F64F8;
+    border-radius: 0px 0px 8px 0px;
+    padding: 0.5em 1.5em;
+    color:white;
+    border: none;
+    font-size: 10px;
+    width: 139.5px;
+    height: 33.75px;    
+}
+
+.name {
+    font-weight:600;
+    color:white;
+    padding-top: 2px;
+}
+
+.icon {
+    width: 14px;
+    height: 14px;
+    padding-right: 5px;
+}
+
+.big__text {
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+color: #2C2C2C;
+}
+
+.small__text {   
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 11.25px;
+    color: #2C2C2C;
+}
+
+.number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13.5px;
+    line-height: 16.5px;
+    color: #2C2C2C;
+}
+
+.gg {
+    display: flex;
+    justify-content: space-ev;
+    background: #f9f9f9;
+    max-width: 902.25px;
+}
+
+.gallery__items {
+    d
+}
+
