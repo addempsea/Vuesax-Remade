@@ -394,12 +394,10 @@ color: #2C2C2C;
 
 .gg {
     display: flex;
-    justify-content: space-ev;
+    justify-content:;
     background: #f9f9f9;
     max-width: 902.25px;
 }
 
-.gallery__items {
-    d
-}
+
 
