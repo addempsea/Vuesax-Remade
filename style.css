@@ -242,7 +242,7 @@ padding-left: 4px;
 
 .mini__section {
     display: grid;
-    grid-template-columns: 278.25px auto 1px;
+    grid-template-columns: 278.25px auto;
     grid-gap: 10px;
 }
 
@@ -325,10 +325,10 @@ input::placeholder {
 }
 
 .gallery__images {
-    /* background: url(/images/apple-watch.jpg) no-repeat; */
     max-width: 278.25px;
-    height: 364.5px;
+    /* height: 364.5px; */
     background: #ffffff;
+    border-radius: 6px;
 }
 
 .cart_1 {
@@ -397,6 +397,7 @@ color: #2C2C2C;
     justify-content:;
     background: #f9f9f9;
     max-width: 902.25px;
+    margin: 21px auto;
 }
 
 
