@@ -400,4 +400,38 @@ color: #2C2C2C;
     margin: 21px auto;
 }
 
+.footer {
+    padding-left: 30px;
+}
 
+/* .bg_ash {
+    background: #ededed;
+    border: #ededed;
+    border-radius: 50%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    padding-left:1em;
+}
+
+.number_ranger {
+    background: #EDEDED;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+#bg-blue {
+    background: #6F64F8;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+} */
+
+.footer {
+    margin-left: 17em;
+}
+
+.footer__logo {
+    padding-left: 4em;
+}
