@@ -452,19 +452,10 @@ a {
     text-decoration: none;
 }
 
-.cart {
-    transform: translateY(%);
-}
-   
-
-.a__watch {
-    transform: translateY(-8%);
-}
-
 .jbl {
     padding-left: 6em;
     padding-bottom: 3em;
-    transform: translateY(15%);
+    transform: translateY(25%);
 }
 
 .iphone {
@@ -487,4 +478,34 @@ a {
 .macbook {
     transform: translateY(60%);
     padding-right: 2em;
+}
+
+.cart__align4 {
+    padding-top: 7em;
+}
+
+.ipad {
+    transform: translateY(40%);
+    padding-left: 3em; 
+}
+
+.cart__align5 {
+    padding-top: 6em;
+}
+
+.homepod {
+    transform: translateY(20%);
+}
+
+.cart__align6 {
+    padding-top: 9.5em;
+}
+
+.jlab {
+    transform: translateY(50%);
+    padding-left: 2em;
+}
+
+.cart__align8 {
+    padding-top: 3.2em;
 }
