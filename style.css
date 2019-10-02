@@ -403,10 +403,10 @@ color: #2C2C2C;
 }
 
 .footer {
-    margin-left: em;
+    /* margin-left: em;
     display: flex;
 
-}
+} */
 
 .pagination__container {
     display: flex;
