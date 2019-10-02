@@ -1,0 +1,505 @@
+   .whole_page {
+        display: grid;
+        grid-template-columns: 210px auto 1px;
+        grid-gap: 10px;
+    }
+    
+    .logo {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.5px;
+    line-height: 20.25px;
+    color: #7E72F2;
+    align-items: center;
+    }
+    
+    .logo > img {
+        width: 28.5px;
+        height: 20.25px;
+    }
+    
+    .logo > span {
+        padding-left: 7.5px;
+    }
+    
+    .side__bar {
+        max-width: 210px;
+        height: 1670px;
+        background: #FFFFFF;
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.170509);
+    }
+    
+    .oval {
+        width: 13.5px;
+        height: 13.5px;
+    }
+    
+    .main__section {
+        background: #F9F9F9;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.0778245);
+        height: 1470px;
+        max-width: 1232.25px;
+    }
+    
+    .dashboard {
+        background-color: #ececec;
+        border-radius: 4px;
+    }
+    
+    .dashboard__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.25px;
+        line-height: 30px;
+        color: #2C2C2C;
+    }
+    
+    .analytics {
+        background: linear-gradient(188.54deg, #9E94FF 0%, #7E72F2 99.2%);
+        box-shadow: -1px 1px 8px rgba(126, 114, 242, 0.578726);
+        border-radius: 4px;
+        margin-top: 3px;
+    }
+    
+    .analytics__text {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11.25px;
+        line-height: 30px;
+        color: #ffff;
+    }
+    
+    .app_name {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10.5px;
+        line-height: 27px;
+        color: #999999;
+    }
+    
+    .side_image {
+        width: 11.25px;
+        height: 13.86px;
+    }
+    .john__doe {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10.5px;
+        line-height: 12.75px;
+        color: #2C2C2C;
+    }
+    
+    .available {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 8.25px;
+        line-height: 9.75px;
+        color: #2C2C2C;
+    }
+    
+    
+    
+    .nav__bar {
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+        border-radius: 6px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .card__action {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21.75px;
+        color: #2C2C2C;
+    }
+    
+    .ecomm {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10.5px;
+        line-height: 12.75px;
+        color: #7E72F2;
+    }
+    
+    .electronics {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10.5px;
+        line-height: 12.75px;
+        color: #2c2c2c;
+    }
+    
+    .settings {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .english {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #2C2C2C;
+    }
+    .round_value {
+        border-radius: 8px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+        font-size: 10.5px;
+        line-height: 12.75px;
+        width: 101.25px;
+        height: 30px;
+    }
+    .filter_side {
+        max-width: 278.20px;
+       max-height: 1300px; 
+        background: #FFFFFF;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+        border-radius: 8px;
+    }
+    .header_name {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13.5px;
+    line-height: 16.5px;
+    color: #2C2C2C;
+    }
+    .filter_name,
+    .filter_no {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #2C2C2C;
+    padding-left: 4px;
+    }
+    .filter_no {
+        font-size: 10.5px;
+    }
+    .filter_slider {
+        font-style: 15px;
+        line-height: 18px;
+    }
+    .slider {
+        -webkit-appearance: none;
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background: #d3d3d3;
+        outline: none;
+        opacity: 0.7;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+      
+    .slider:hover {
+        opacity: 1;
+    }
+    
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: #6F64F8;
+        cursor: pointer;
+    }
+      
+    .slider::-moz-range-thumb {
+        width: 20px;
+        height: 25px;
+        border-radius: 50%;
+        background: #6F64F8;
+        cursor: pointer;
+    }
+    .grid_menu {
+        width: 30px;
+        height: 30px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+        border-radius: 8px;
+        margin-left: 6px;
+
+    }
+    .grid {
+        width: 12px;
+        height: 12px;
+        margin: 9px;
+        
+    }
+    .menu {
+        width: 9.75px;
+        height: 9.75px;
+        margin: 10px;
+    }
+    .btn_block {
+        width: 278.25px;
+        height: 40px;
+        background: #6F64F8;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+        border-radius: 6px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13.5px;
+        line-height: 16.5px;
+        color: #FFFFFF;
+        border: none;
+    }
+    .mini__section {
+        display: grid;
+        grid-template-columns: 278.25px auto 1px;
+        grid-gap: 10px;
+    }
+    search { 
+        position: relative; 
+    }
+    
+    .search input { 
+        width: 811.25px;
+        height: 46.5px;
+        padding: 6px;
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+        border-radius: 6px;
+    }
+    
+    .search > img { 
+        position: absolute;
+        top: 195px;
+        left: 95%;
+    }
+    
+    input::placeholder {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16.5px;
+        line-height: 20.25px;
+        color: #999999;
+    }
+    .results {
+            padding-right: 230px;    
+
+    }
+    .default_value {
+        margin-top: 20px;
+    }
+    .footer {
+        width: 112.5px;
+        height: 30.75px;
+    }
+    .ratings {
+        background: #6F64F8;
+        border-radius: 3px;
+        width: 45px;
+        height: 22.5px;
+        color: #ffffff;
+    }
+    
+    .ratings > span {
+        font family: Montserrat;
+        font style: Regular;
+        font size: 10.5px;
+        line height: 12.75px;
+    }
+    
+    .gallery__images {
+        /* background: url(/images/apple-watch.jpg) no-repeat; */
+        max-width: 268.25px;
+        height: 415px;
+        background: #ffffff;
+    /* SEND TO DEMOLA */
+    }
+    
+    .cart_1 {
+        background: #EDEDED;
+        border-radius: 0px 0px 0px 8px;
+        padding: 0.5em 1.5em;
+        border: none;
+        font-weight: bold;
+        font-size: 10px;
+        width: 139.5px;
+        height: 33.75px;
+    }
+    
+    .cart_2 {
+        background: #6F64F8;
+        border-radius: 0px 0px 8px 0px;
+        padding: 0.5em 1.5em;
+        color:white;
+        border: none;
+        font-size: 10px;
+        width: 139.5px;
+        height: 33.75px;    
+    }
+    
+    .name {
+        font-weight:600;
+        color:white;
+        padding-top: 2px;
+    }
+    
+    .icon {
+        width: 14px;
+        height: 14px;
+        padding-right: 5px;
+    }
+    
+    .big__text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2C2C2C;
+    }
+    
+    .small__text {   
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11.25px;
+        color: #2C2C2C;
+    }
+    
+    .number {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13.5px;
+        line-height: 16.5px;
+        color: #2C2C2C;
+    }
+    
+    .gg {
+        display: flex;
+        justify-content: space-even;
+        background: #f9f9f9;
+        max-width: 902.25px;
+    }
+    .star {
+        width: 9px;
+        height: 9px;
+        margin-top: 7px;
+    }
+    .apple-wath {
+        transform: translateY(-8%);
+
+    }
+    .speaker_img {
+        padding-left: 6em;
+        padding-bottom: 3em;
+        transform: translateY(15%);
+    }
+    .iphone {
+        padding-bottom: 3em;
+        transform: translateY(10%);
+    }
+    .list_item {
+        padding-top: 4.5em;
+    }
+    .list_items_1 {
+         transform: translateY(130%);
+        
+    }
+    .items {
+        transform: translateY(135%);
+    }
+    .headphone_items {
+        padding-top: 2em;
+
+    }
+   .cart {
+    transform: translateY(2%);
+   }
+   
+    .ipad_item {
+        transform: translateY(50%);
+    }
+    .ipro_text {
+        padding-top: 3em;
+    }
+    .pod,
+    .audio  {
+        padding-top: 2.5em;
+    }
+    
+    .number_line {
+        padding-top: 4em;
+    }
+    .magic_mouse {
+        transform: translateX(90%);
+    }
+    .footer_bar {
+        transform: translateX(4%);
+        padding-left: 20em;
+       
+    }
+    .image_foter {
+        width: 352.5px;
+        height: 30px;
+    }
+    .pagination__container {
+        display: flex;
+        transform: translateX(29%);
+        margin-top: 1.5em;
+        margin-left: 9.2em;
+      }
+  
+      .pagination__prev,
+      .pagination__next {
+        background: #EDEDED;
+        padding:  1em;
+        border-radius: 50px;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content:space-evenly;
+        align-content: center; 
+        
+    }
+   
+ .pagination__numbers {
+     background: #EDEDED;
+     margin: 0 1em;
+     padding: 0em 2em;
+     border-radius: 50px;
+     display: flex;
+    align-items: center;
+ }
+  
+      .pagination__numbers>span {
+        width: 35px;
+        height: 35px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-size: 21px;
+      }
+  
+      .pagination__numbers>span.purple {
+        background: #6F64F8;
+        color: #fff;
+        padding: 4px;
+      }
+  
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
